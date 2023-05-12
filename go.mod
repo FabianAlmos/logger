@@ -1,3 +1,3 @@
-module github.com/FabianAlmos/logger@v1.0.0
+module github.com/FabianAlmos/logger
 
 go 1.20
