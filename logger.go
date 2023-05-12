@@ -2,18 +2,18 @@ package logger
 
 import "fmt"
 
-func Info(data any) {
-	fmt.Println("Log info: ", data)
+func Info(message string, params any) {
+	fmt.Println("Log info message: ", message, "params: ", params)
 }
 
-func Error(data any) {
-	fmt.Println("Log error: ", data)
+func Error(message string, params any) {
+	fmt.Println("Log error message: ", message, "params: ", params)
 }
 
-func Warn(data any) {
-	fmt.Println("Log warn: ", data)
+func Warn(message string, params any) {
+	fmt.Println("Log warn message: ", message, "params: ", params)
 }
 
-func Fatal(data any) {
-	fmt.Println("Log fatal: ", data)
+func Fatal(message string, params any) {
+	fmt.Println("Log fatal message: ", message, "params: ", params)
 }
