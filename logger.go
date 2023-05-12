@@ -13,3 +13,7 @@ func Error(data any) {
 func Warn(data any) {
 	fmt.Println("Log warn: ", data)
 }
+
+func Fatal(data any) {
+	fmt.Println("Log fatal: ", data)
+}
